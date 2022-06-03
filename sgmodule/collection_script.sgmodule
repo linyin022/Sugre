@@ -52,6 +52,8 @@ URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT
 
 [MITM]
 //Weibo
-hostname = %APPEND% api.weibo.cn, mapi.weibo.com, sdkapp.uve.weibo.com
+hostname = %APPEND% api.weibo.cn, mapi.weibo.com, sdkapp.uve.weibo.com, 
 //Youtube
-hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
+*.googlevideo.com, *.youtube.com, youtubei.googleapis.com
+
+
